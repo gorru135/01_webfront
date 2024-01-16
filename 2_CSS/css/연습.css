@@ -1,0 +1,14 @@
+#th-1{
+    background-color: aqua;
+}
+
+#tbody1 > tr > th{
+    background-color: orange;
+}
+
+#tbody1 > tr > td {
+    background-color: orangered;
+}
+#tfoot1 {
+    background-color: blue;
+}
