@@ -1,3 +1,64 @@
 div {
     border: 1px solid black;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+    height: 500px;
+    
+}
+
+.head {
+
+    background-color: aqua;
+    flex-basis: 20%;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    
+    flex-basis: 60%;
+}
+
+.body-left{
+
+    flex-basis: 30%;
+    background-color: aquamarine;
+}
+
+.body-right {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:end;
+
+    flex-basis: 70%;
+    background-color: orange;
+}
+
+.br-items1{
+    width: 75px;
+    height: 75px;
+
+}
+.br-items2{
+    width: 75px;
+    height: 75px;
+
+}
+.br-items3{
+    width: 75px;
+    height: 75px;
+
+}
+
+.foot {
+    flex-basis: 20%;
+    background-color: aqua;
+}
+

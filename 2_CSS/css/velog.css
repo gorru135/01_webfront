@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+main{
+    width: 1140px;
+    margin: auto;
+}
+
+header {
+display: flex;
+flex-direction: row;
+height: 200px;
+}
+
+body {
+    margin: 0;
+}
+
+.home-logo {width: 70px;}
+
+#header-right {
+   flex-basis: 50%; 
+}
+
+#header-left {
+   flex-basis: 50%; 
+}
+
+
+
+
