@@ -1,33 +1,32 @@
 * {
-    box-sizing: border-box;
-
     border: 1px solid black;
-}
-main{
-    width: 1140px;
-    margin: auto;
-}
 
-header {
-display: flex;
-flex-direction: row;
-height: 200px;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
 }
 
-.home-logo {width: 70px;}
+main{
 
-#header-right {
-   flex-basis: 50%; 
+    width: 1500px;
+
+    margin: auto;
 }
 
-#header-left {
-   flex-basis: 50%; 
+header {
+
+    height: 150px;
+    display: flex;
 }
 
+.header-left {
+    
+}
+
+#main-logo {
+    width: 50px;
 
 
-
+}
