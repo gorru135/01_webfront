@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black;  */
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    width: 1140px;
+    margin: auto;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 150px;
+    margin-bottom: 3px;
+}
+
+#home-logo{
+   width: 100px;
+}
+
+header p{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #455ba8;
+}
+
+
+
+#id-password-area > section:nth-last-of-type(1){
+}
+
+
+#id-password-area form >fieldset{
+   
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.em-ps-area input{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left:10;
+    width: 100%;
+    height: 40px;
+    
+    font-size: 18px;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+fieldset>div:nth-child(2){
+    margin: 10px;
+    
+}
+fieldset>div input:nth-child(1):hover{
+    border: 3px solid #455ba8;
+
+}
+fieldset>div input:nth-child(2):hover{
+    border: 3px solid #455ba8;
+}
+
+.sign-area{
+    display: flex;
+}
+
+.sign-area button{
+    background-color: #455ba8;
+    border: none;
+    font-size: 18px;
+    height: 40px;
+    width: 223px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
