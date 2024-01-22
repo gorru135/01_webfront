@@ -174,3 +174,27 @@ function check(){
     console.log(a, b, c);
 }
 
+
+
+function printJSObject(){
+
+    const userName = document.getElementById("userName");
+    //const userName2 = document.querySelector(".userName");
+    
+    //console.log(userName2);
+    const userAge = document.getElementById("userAge");
+    const userGender = document.getElementById("userGender");
+
+    const userInfo = {
+    이름 : userName.value,
+    나이 : userAge.Value,
+    성별 : userGender.value
+    };
+
+    console.log(userInfo);
+    
+}
+
+
+
+
