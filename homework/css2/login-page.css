@@ -61,6 +61,7 @@ header p{
     font-size: 18px;
     border-color: grey;
     border-radius: 5px;
+    outline: 0;
 }
 
 fieldset>div:nth-child(2){
@@ -71,6 +72,13 @@ fieldset>div input:nth-child(1):hover{
     border: 3px solid #455ba8;
 
 }
+
+fieldset label{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 fieldset>div input:nth-child(2):hover{
     border: 3px solid #455ba8;
 }
