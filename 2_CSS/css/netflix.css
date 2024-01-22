@@ -1,8 +1,9 @@
 * {
     color: white;
-    box-sizing:border-box
-    
-  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
 .container {
@@ -10,48 +11,44 @@
     height: 100%;
 }
 
-#logo {width: 50px;}
+#logo {
+    width: 50px;
+}
 
-nav{
+nav {
     height: 60px;
     display: flex;
-
-    border-bottom: 1px solid red;
 }
 
 nav > ul {
-    display: flex;
-    list-style: none;
-
-    flex-basis: 75%;
-    
+  display: flex;
+  list-style: none;
+  flex-basis: 75%;
 }
 
-nav > ul > li{
-
+nav > ul > li {
     text-align: center;
     line-height: 60px;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-.icon-box{
+.icon-box {
     display: flex;
     flex-basis: 20%;
-
     justify-content: space-around;
     align-items: center;
 }
 
-nav > a:first-child{
+nav > a:first-child {
     flex-basis: 5%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .banner {
-    background-image: url(/images/netflix-benner.png);
+    background-image: url(/images/netflix-banner.jpg);
     width: 100vw;
     height: 800px;
     background-repeat: no-repeat;
@@ -60,19 +57,20 @@ nav > a:first-child{
     align-items: flex-end;
 }
 
-.title-box{
-   
+.title-box {
+    height: 400px;
     display: flex;
     flex-direction: column;
 
     padding: 50px;
 }
 
-.title-box >h1 {
+.title-box > h1 {
     font-size: 50px;
 }
 
-.title-box > p{
+
+.title-box > p {
     font-size: 20px;
     margin-top: 20px;
 }
@@ -93,27 +91,20 @@ nav > a:first-child{
 }
 
 .title-box-btn > button:last-child {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     color: white;
 }
 
-.content-box{
-    border: 1px solid red;
-
+.contents-box {
     display: flex;
     flex-direction: column;
 }
 
-.content-box > section{
-
-    display: flex;
-}
-
-.content-box img{
+.contents-box img {
     width: 200px;
 }
 
-.content-box p{
+.contents-box p {
     font-size: 150px;
     font-weight: bold;
     -webkit-text-stroke: 5px white;
@@ -124,29 +115,24 @@ nav > a:first-child{
     left: -50px;
 }
 
-.poster-box > section{
+.contents-box > section {
     display: flex;
 }
 
-.content-box > h2{
+.contents-box > h2 {
     padding: 20px 50px;
 }
 
 .poster-box {
     position: relative;
-    
 
     margin: 0 50px;
-    
 }
 
-.poster-box2 {
+.poster-box-2 {
     padding: 0 50px;
 }
 
-.poster-box2 > div {
+.poster-box-2 > div {
     margin-right: 50px;
-
 }
-
-

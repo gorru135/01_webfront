@@ -1,18 +1,19 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid black;  */
+
+    /*border: 1px solid black;*/
 }
 
-body{
+body {
     margin: 0;
 }
 
-main{
+main {
     width: 1140px;
     margin: auto;
 }
 
-header{
+header {
     height: 200px;
     display: flex;
 }
@@ -21,29 +22,29 @@ header > section:nth-of-type(1),
 header > section:nth-of-type(3) {
     flex-basis: 15%;
 }
+
 header > section:nth-of-type(2) {
-    display: flex;
-
     flex-basis: 70%;
-    justify-content: center;
-    align-items: center;
-}
 
-/* 로고*/
-
-header > section:nth-of-type(1){
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#home-logo{
+/* 로고 */
+header > section:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-logo {
     width: 120px;
 }
 
 /* 검색 스타일 */
 
-.search-area{
+.search-area {
     width: 500px;
 }
 
@@ -56,56 +57,54 @@ header > section:nth-of-type(1){
     display: flex;
 }
 
-#query{
+#query {
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    
     border: none; /* 0 */
-    outline: none;/* 0 */
-    /*outline: input 태그에 포커스가 맞춰졌을 때 
+    outline: none; /* 0 */
+    /* outline: input 태그에 포커스가 맞춰졌을 때
         이를 표현하기 위한 바깥선
-        */
+    */
+
     flex-basis: 92%;
 }
 
-#search-btn{
+#search-btn {
     flex-basis: 8%;
     cursor: pointer;
     font-size: 20px;
     color: #455ba8;
-    border: 0;
+    border: none;
     background-color: transparent;
 }
 
-/*nav */
-nav{
+/* nav */
+nav {
     height: 50px;
     border-bottom: 2px solid black;
     position: sticky;
-    /*sticky : 스크롤이 임계점에 도달했을 때 화면에 스티커처럼 붙임
-       - 평소에는 static (기본 postion 상태)
+    /* sticky : 스크롤이 임계점에 도달했을 때 화면에 스티커처럼 붙임
+        - 평소에는 static (기본 postion 상태)
         임계점 도달 시 fixed (화면 특정 위치 고정)
 
-        top,bottom, left, right 속성이 필수로 작성이 되어야 함. 
-        -> 임계점 도달 시 어느 위치에 부착할 지 정해야하기 때문에. 
-
+        top, bottom, left, right 속성이 필수로 작성이 되어야 함.
+        -> 임계점 도달 시 어느 위치에 부착할 지 정해야하기 때문에..
     */
-    top: 0; /*최상단에 붙임*/
+    top: 0; /* 최상단에 붙임 */
     background-color: white;
 }
 
-/*nav > ul 스타일*/
-nav > ul{
+/* nav > ul 스타일 */
+nav > ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-
     height: 100%;
 }
 
-nav li{
+nav li {
     flex-basis: 150px;
 }
 
@@ -127,42 +126,39 @@ nav a {
 nav a:hover {
     background-color: #455ba8;
     color: white;
-
 }
 
-/* content*/
+/* content */
 .content {
     height: 800px;
     display: flex;
-    
 }
 
-.content-1 {flex-basis: 70%;}
-.content-2 {flex-basis: 30%;}
+.content-1 { flex-basis: 70%;}
+.content-2 { flex-basis: 30%;}
 
 /* login 스타일 */
-form[name=login-form] {
+form[name="login-form"] {
     height: 150px;
     padding: 10px;
     margin-top: 10px;
 
     display: flex;
     flex-direction: column;
-
 }
 
-form[name=login-form] > label {
+form[name="login-form"] > label {
     margin-top: 5px;
     font-size: 14px;
     flex-basis: 20%;
 }
 
 #signup-find-area {
-
     flex-basis: 20%;
     margin-top: 10px;
     padding-left: 5px;
 }
+
 
 #signup-find-area > a {
     color: black;
@@ -176,11 +172,11 @@ form[name=login-form] > label {
 
 #id-pw-area {
     flex-basis: 60%;
-    
+
     display: flex;
     margin: 0;
     padding: 0;
-    border: 1px solid#bbb;
+    border: 1px solid #ddd;
 }
 
 #id-pw-area > section:first-child {
@@ -198,21 +194,20 @@ form[name=login-form] > label {
     outline: none;
     padding: 5px;
     flex-basis: 50%;
-    border-right: 1px solid#bbb;
+    border-right: 1px solid #ddd;
 }
 
 #id-pw-area input:first-child {
-    border-bottom: 1px solid #bbb;
-
+    border-bottom: 1px solid #ddd;
 }
 
 #id-pw-area input:focus {
-    border: 2px solid#455ba8; 
+    border: 2px solid #455ba8;
 }
 
-/*로그인 버튼 */
+/* 로그인 버튼 */
 
-#id-pw-area button{
+#id-pw-area button {
     width: 100%;
     height: 100%;
     border: none;
@@ -225,27 +220,22 @@ form[name=login-form] > label {
     color: white;
 }
 
-/* footer*/
-
+/* footer */
 footer {
     height: 200px;
     background-color: #a3add342;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
 footer > p {
     font-weight: bold;
-
 }
 
-footer > section > * { 
+footer > section > * {
     font-size: 14px;
-
 }
 
 footer a {
@@ -253,11 +243,49 @@ footer a {
     text-decoration: none;
 }
 
-footer span { 
+footer span {
     padding: 0 10px;
 }
 
-/*반응형 모바일 기준 
+/* 반응형 모바일 기준 
 - 해상도 767px 이하면 무조건 여기 작성된대로 css 적용해라
 */
+@media all and (max-width: 767px) {
 
+    main {
+        width: 100vw;
+    }
+
+    header {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        border-bottom: none;
+        height: auto;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        flex-basis: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    footer > * {
+        font-size: 12px;
+    }
+
+
+}
+
+/* 태블릿 */
+@media all and (min-width: 768px) and (max-width:1023px) { /* 스타일 입력 */ } 
