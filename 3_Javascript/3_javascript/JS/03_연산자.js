@@ -25,7 +25,7 @@ function plusFn(){
     // 더했을 때 이어쓰기 되는 문제가 발생한다!!
 
     //[해결방법]
-    // 문자열(string)을 숫자(nember)으로 변경하는 코드를 수행 
+    // 문자열(string)을 숫자(number)으로 변경하는 코드를 수행 
 
     // 숫자만 작성된 문자열("123") 을 
     // 진짜 숫자(123)로 바꾸는 방법 
@@ -39,8 +39,7 @@ function plusFn(){
     * 내부 글자(innerText,HTML 요소 내용)로 대입하기 
     */
 
-    result.innerText = Number(value1) + Number(value2) ;
-
+    result.innerText = Number(value1) + Number(value2);
 }
 
 // plusFn 끝
@@ -194,7 +193,4 @@ function printJSObject(){
     console.log(userInfo);
     
 }
-
-
-
 

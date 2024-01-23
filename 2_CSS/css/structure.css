@@ -287,5 +287,4 @@ footer span {
 
 }
 
-/* 태블릿 */
-@media all and (min-width: 768px) and (max-width:1023px) { /* 스타일 입력 */ } 
+ and (min-width: 768px) and (max-width:1023px) { /* 스타일 입력 */ } 
