@@ -120,7 +120,7 @@ function selecMenu(){
     
     // 저녁 메뉴로 초기화된 배열 생성
     const menu = ["제육볶음", "돈까스", "파스타","순대국","닭갈비","초밥"
-                , "햄버서", "알탕","피자","백반","마라탕"]; //길이 11
+                , "햄버거", "알탕","피자","백반","마라탕"]; //길이 11
     // menu 배열 index 범위 내에서 난수 생성
     const randomNumber = Math.floor(Math.random()* menu.length);
 

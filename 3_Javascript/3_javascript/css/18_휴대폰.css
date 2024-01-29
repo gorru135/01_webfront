@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red; 
+    
+}
+
+main {margin: 0;
+    background-color: #bbb;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*헤더 부분 시작*/
+header {
+    flex-basis: 5%;
+} 
+
+header > div > input{
+    margin: auto;
+    width: 98%;
+    font-size: 18px;
+    padding: 2px;
+    outline: none;
+}
+/*헤더 부분 끝*/
+
+/* 몸통 시작 */
+nav{
+    display: flex;
+    flex-basis: 99%;
+    height: 500px;
+    background-color: white;
+}
+
+nav > div{
+    display: flex;
+    flex-basis: 50%;
+}
+
+nav > div > section:nth-child(1){
+    flex-basis: 40%;
+}
+
+nav > div > section:nth-child(2){
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+}
+
+#number-container{
+    display: flex;
+    flex-direction: column;
+   
+ 
+}
+.number-area1{
+    display: flex;
+    
+
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.ph-area{
+    flex-basis: 10%;
+}
+
+.ph-area2{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ph-area3{
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    
+}
+
+.ph-area3 > div:nth-child(1){
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: end;
+}
+.ph-area3 > div:nth-child(2){
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: start;
+}
+
+.ph-area3 > div > button{
+    width: 100%;
+    font-size: 20px;
+}
+
