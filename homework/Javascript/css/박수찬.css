@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+
+.tb3{
+    margin: auto;
+}
+
+tbody > tr > td{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px;
+  
+}
+
+div{
+    display: flex;
+}
+
+div > button{
+    
+    margin: auto;
+}
+td > input{
+    margin: 0;
+    padding: 1px;
+   
+    
+}

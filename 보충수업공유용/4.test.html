@@ -11,6 +11,39 @@
     <button id="btn">click</button>
 
     <script>
+       
+        // const 변수  
+        // document 문서
+        // getElementById("numberInput") numberInput ID를 가진 요소를 가져오겠다
+        
+        //-------------------------------------------------------------
+        
+        // const number = document.getElementById("numberInput") 해석 
+        // HTML문서에서 가져온 numberInput라는 id를가진 <input>태그 요소를 가져와 number라는 변수로 지정 하겠다.
+        
+        // 2. 버튼 클릭시 이벤트 발생 
+        document.getElementById("btn").addEventListener("click",() => {
+            const number = document.getElementById("numberInput").value;
+        // addEventListener("click",() => {} 해석 
+        // btn이라는버튼 클릭시 이벤트를 열겠다.
+
+        // 구현하고 싶은거 - input안에 숫자 입력을 하고 버튼 클릭시 alert 창으로 짝수면 '짝수입니다'
+        // 홀수면 '홀수입니다.' 나오게 하기 
+        // 뭐부터 해야할까? 일단 버튼 이벤트는 열었음.. 
+        
+        // if = 만약에 
+        // alert = 띄우겠다. 
+       if(Number(number) % 2 == 0) { //<-number.value는 값이 제대로 나오는데 위에 .val
+        // (Number(number) = 넘버라는 문자열을 숫자열로 바꾸겠다.
+        // if(Number(number) % 2 == 0){alert("짝수입니다.")} 해석
+        // 만약에 넘버라는 문자열과 2를 나눴을때 0인 경우 "짝수입니다."를 알리겠다
+        alert("짝수입니다.");
+       } else{ 
+        alert("홀수입니다");
+       }
+      
+    
+        });
     </script>
 </body>
 </html>

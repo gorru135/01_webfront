@@ -11,26 +11,28 @@
     <p>let numbers = [1, 2, 3, 4, 5];</p>
     <ul id="ulTag"></ul>
 
+
 <script>
   const ul = document.getElementById("ulTag"); // ul태그
 
   let numbers = [1, 2, 3, 4, 5];
+  // [1, 2, 3, 4, 5] 를 numbers이름을 가진 변수로 만들겠다. 
 
 
   for( let i= 0; i < numbers.length; i++){
     numbers[i] = numbers[i] * 2;
   }
 
-  console.log(numbers);
 
-  //결과를 화면에 출력 
 
-  for(let i = 0; i < numbers.length; i++){
-    const li =document.createElement("li");
-    li.innerText = number[i];
+//결과를 화면에 출력 
 
-    ul.append(li);
-  }
+for(let i = 0; i < numbers.length; i++){
+  const li = document.createElement("li");
+  li.innerText = numbers[i];
+
+  ul.append(li);
+}
 
 </script>
 

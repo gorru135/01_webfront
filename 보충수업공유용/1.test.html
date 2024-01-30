@@ -27,14 +27,16 @@
 
     // 1. input에 작성된 내용(value) 얻어오기 
     const name = document.getElementById("name").value;
+    // HTML에 name이라는 id를 가진 input창요소에 변수 name을 주고 값을 주겠다.
 
     // 2. 환영 메세지 생성.
     const welcomeMessage = "안녕하세요," + name + "님! 환영합니다!";
-   
+   // welcomeMessage란 div에 = "안녕하세요," + 값 + "님! 환영합니다!"
+
     // 3. 만든 메세지를 id가 welcomeMessage인 div에 표기하기
 
     document.getElementById("welcomeMessage").innerText = welcomeMessage;
-    
+    //"welcomeMessage"에 텍스트안에 넣겠다. 
     
   }
 

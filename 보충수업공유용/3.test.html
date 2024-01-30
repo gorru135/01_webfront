@@ -8,6 +8,8 @@
     <style>
         div, span {
             border: 1px solid black;
+            width: 100px;
+            height: 100px;
         }
 
     
@@ -15,13 +17,50 @@
 </head>
 <body>
     태그 : <input type="text" id="tagName"> <br>
+
+
     태그안에 쓸 내용: <input type="text" id="tagInnerText"> <br>
     color 색상 : <input type="text" id="colorName"> <br>
     <button id="btn">적용</button>
 
-    <section id="result"></section>
+    <section id="result">
+
+
+
+    </section>
+
+    
+
+
+
 
     <script>
+    
+        const text = document.getElementById("tagName");
+
+        const colorName = document.getElementById("colorName");
+
+        const result = document.getElementById("result");
+
+        const tagInnerText = document.getElementById("tagInnerText")
+
+        document.getElementById("btn").addEventListener("click",() => {
+            
+
+            const addDiv = document.createElement(text.value);
+            
+            result.append(addDiv);
+            
+            addDiv.append(tagInnerText.value);
+
+            addDiv.style.color = colorName.value;
+
+            
+});
+            
+    
+
+
     </script>
 </body>
 </html>
