@@ -31,7 +31,7 @@ btn.addEventListener("click", function(){
     }
 
     if (font != null){
-        box.style.fontSize = font.value;
+        box.style.fontWeight = font.value;
     }
     
     if (color.value.trim().length > 0){
@@ -55,3 +55,4 @@ btn.addEventListener("click", function(){
     }
 
 });
+
