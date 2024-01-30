@@ -80,7 +80,7 @@ div{
         -> 브라우저 크기에 따라 변함
         */
 
-   /* justify-content: space-around; */
+   /* justify-content: space-around; 
 
     /* item이 메인축 내에서 동일한 간격을 가진다 */
    /* justify-content: space-evenly; */
@@ -92,7 +92,7 @@ div{
    /* align-items */
    /* item들을 교차축 방향으로 정렬하는 방법을 지정하는 속성 */
 
-    /* align-items: flex-start */
+     /* align-items: flex-start  */
 }
 
 #con    {

@@ -1,0 +1,17 @@
+
+section{
+    display: flex;
+    flex-basis: 100%;
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+
+}
+
+section > div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items:center;
+}

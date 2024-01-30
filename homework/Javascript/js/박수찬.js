@@ -12,7 +12,7 @@ btn.addEventListener("click", function(){
     const backgroundColor = document.querySelector("#backgroundColor");
     const justify = document.querySelector("[name='justifyContent']:checked");
     
-    const align = document.querySelector("[name = 'alignItems']:checked");
+    const align = document.querySelector("[name = 'align']:checked");
 
     const textarea = document.querySelector("#textarea");
     const box = document.querySelector("#box");
@@ -30,7 +30,7 @@ btn.addEventListener("click", function(){
         box.style.fontSize = fontSize.value + "px";
     }
 
-    if (font == null){// 안되고있음
+    if (font != null){
         box.style.fontSize = font.value;
     }
     
@@ -42,13 +42,13 @@ btn.addEventListener("click", function(){
         box.style.backgroundColor = backgroundColor.value;
     }
 
-    if ( justify == null){// 안되고있음
+    if ( justify != null){
         box.style.justifyContent= justify.value;
     }
 
-    if ( align == null){// 안되고있음
+    if ( align != null){
         box.style.alignItems= align .value;
-    }
+    }   console.log(align)
 
     if (textarea.value.trim().length > 0){
         box.innerText = textarea.value;

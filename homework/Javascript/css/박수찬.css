@@ -26,6 +26,12 @@ div > button{
 td > input{
     margin: 0;
     padding: 1px;
-   
-    
 }
+
+section{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+} 
