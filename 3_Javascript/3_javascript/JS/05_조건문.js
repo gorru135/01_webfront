@@ -26,9 +26,9 @@ function check2(){
     
     if(randomNumber % 2 == 1) {// 홀수
         alert(`${randomNumber} 는 홀수 입니다.`);
-    } else{ //호루가 아닌경우 == 짝수
+    } else //홀수가 아닌경우 == 짝수
         alert(`${randomNumber} 는 짝수 입니다.`);
-    }
+    
 }
 
 //-3 ~ 3 사이 난수를 발생시켜 양수, 음수, 0 판별
@@ -91,7 +91,7 @@ const number1 = document.getElementById("number1"); //input
 const number2 = document.getElementById("number2"); //input
 const clacResult = document.getElementById("calcResult"); //span
 
-function calc(op){ 
+function calc(op){ //op 아무것도 없음. 변수 
     // 매개 변수(parameter) 
     // * 함수 호출 시 전달되는 값을 지정하는 변수 
 
@@ -118,10 +118,10 @@ function calc(op){
     // op 값에 따른 처리 case 작성
         case '+': result = v1 + v2; break;
         case '-': result = v1 - v2; break;
-        case '*': result = v1 - v2; break;
-        case '/': result = v1 - v2; break;
-        case '%': result = v1 - v2; break;
-        case '@': result = v1 - v2; break;
+        case '*': result = v1 * v2; break;
+        case '/': result = v1 / v2; break;
+        case '%': result = v1 % v2; break;
+      
         
         // 맞는 case가 없을 경우에 적용할 기본 값 (else)
         default : result = "잘못된 연산자"; break;
@@ -129,10 +129,6 @@ function calc(op){
 
     
     clacResult.innerText = result
-}
-
-    // if 문 버전 
-
     /*if(op == '+'){
         clacResult.innerText = v1 + v2;
     } else if(op == '-') {
@@ -149,3 +145,8 @@ function calc(op){
         clacResult.innerText = v1 - v2;
     } */
     
+}
+
+
+    // if 문 버전 
+

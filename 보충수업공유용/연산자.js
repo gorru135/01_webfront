@@ -107,6 +107,6 @@ function printJSObject(){
     };
     
 
-    total4.innerText = usertotal.이름, "" +  usertotal.나이, ""+  usertotal.성별;
+    total4.innerText = usertotal.이름,""+  usertotal.나이, ""+  usertotal.성별,"";
 
 }

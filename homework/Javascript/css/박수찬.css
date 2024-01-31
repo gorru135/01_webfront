@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;   */
 
 }
 
@@ -11,19 +11,29 @@
 tbody > tr > td{
     font-weight: bold;
     text-align: center;
-    padding: 5px 0px;
-  
+    padding: 5px 0px;  
 }
 
 div{
     display: flex;
 }
 
-div > button{
+.td-box{
+    display: flex;
     
+}
+
+div{
+    display: flex; 
+    margin: 5px;
+}
+
+button{
     margin: auto;
 }
+
 td > input{
+    justify-content: left;
     margin: 0;
     padding: 1px;
 }
@@ -33,5 +43,5 @@ section{
     width: 500px;
     height: 500px;
     margin: auto;
-    
+  
 } 
